@@ -71,7 +71,7 @@ EOM
 if [ ! -d "./nmap" ]
 then
 	mkdir nmap
-	printf"[+] Created the nmap directory.\n"
+	printf "[+] Created the nmap directory.\n"
 fi
 
 start=$(date +%s)
